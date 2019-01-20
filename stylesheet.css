@@ -1,0 +1,22 @@
+html, body, head {
+    background-color: rgb(50, 124, 60);
+}
+#workInProgress {
+    display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+}
+#Logo {
+    width: 50vh;
+    height: 45vh;
+
+}
+.LogoScript{
+    font-family: 'Aleo';
+    font-size: 5vh;
+    text-align: center;
+    margin-top: -5vh;
+}
