@@ -1,5 +1,5 @@
 html, body, head {
-    background-color: rgb(50, 124, 60);
+    background-color: rgb(255, 255, 255);
 }
 #workInProgress {
     display: flex;
@@ -19,4 +19,45 @@ html, body, head {
     font-size: 5vh;
     text-align: center;
     margin-top: -5vh;
+}
+#navBarSection {
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+    width: 100vw;
+    height: 12vh;
+    background-color: green;
+    border: solid 1vh darkgreen;
+}
+.navLogoText {
+    font-family: 'Aleo';
+    font-size: 3.5vh;
+    text-align: center;
+}
+#navLogo {
+    width:12vh;
+    height: 12vh;
+}
+#navBarSectionLinks {
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+    align-content: center;
+    width: 100vw;
+    height: 5vh;
+    background-color: green;
+    
+}
+.navBarLinks {
+    font-size: 2vh;
+    text-decoration: none;
+    color: black;
+    margin-right: 3.5vh;
+    font-family: 'Aleo';
+
 }
