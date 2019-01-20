@@ -1,63 +1,115 @@
-html, body, head {
+html,
+body,
+head {
     background-color: rgb(255, 255, 255);
 }
+
 #workInProgress {
     display: flex;
-	flex-direction: column;
-	flex-wrap: nowrap;
-	justify-content: center;
-	align-items: center;
-	align-content: center;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
 }
+
 #Logo {
     width: 50vh;
     height: 45vh;
 
 }
-.LogoScript{
+
+.LogoScript {
     font-family: 'Aleo';
     font-size: 5vh;
     text-align: center;
     margin-top: -5vh;
 }
+
 #navBarSection {
     display: flex;
-	flex-direction: row;
-	flex-wrap: nowrap;
-	justify-content: center;
-	align-items: center;
-	align-content: center;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
     width: 100vw;
     height: 12vh;
     background-color: green;
     border: solid 1vh darkgreen;
 }
+
 .navLogoText {
     font-family: 'Aleo';
     font-size: 3.5vh;
     text-align: center;
 }
+
 #navLogo {
-    width:12vh;
+    width: 12vh;
     height: 12vh;
 }
+
 #navBarSectionLinks {
     display: flex;
-	flex-direction: row;
-	flex-wrap: nowrap;
-	justify-content: center;
-	align-items: center;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
     align-content: center;
     width: 100vw;
     height: 5vh;
     background-color: green;
-    
+
 }
+
 .navBarLinks {
     font-size: 2vh;
     text-decoration: none;
     color: black;
     margin-right: 3.5vh;
     font-family: 'Aleo';
+    text-align: center;
 
+}
+
+#navButtonSection {
+    top: 0;
+    right: 0;
+    margin-top: 1.5vh;
+    position: absolute;
+}
+
+.navButtons {
+    width: 4.5vh;
+    height: 4.5vh;
+}
+
+#phoneNumberPopUp {
+    bottom: 0;
+    left: 0;
+
+    position: fixed;
+    width: 0;
+    height: 0;
+    overflow: hidden;
+    transition: height 0.25s;
+        /* width: 15vw;
+    height: 20vh; */
+    background-color: rgb(86, 141, 23);
+ 
+}
+
+#phoneNumberHeader {
+    text-align: center;
+    font-family: 'Aleo';
+    font-size: 3vh;
+    color: white;
+}
+
+#phoneNumberDescript {
+    text-align: center;
+    font-family: 'Aleo';
+    font-size: 2.5vh;
+    color: white;
 }
