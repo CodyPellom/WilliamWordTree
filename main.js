@@ -1,12 +1,11 @@
 $(document).ready(function() {
 $('#phoneIcon').mouseenter(function(){
-    $('#phoneNumberPopUp').height('20vh');
-    $('#phoneNumberPopUp').width('15vh');
+    $('#popUpImg').height('15vh');
+    $('#popUpImg').width('30vh');
 });
 $('#phoneIcon').mouseleave(function(){
-    $('#phoneNumberPopUp').animate({
+    $('#popUpImg').animate({
         height: "0vh",
-  
     });
 
    
