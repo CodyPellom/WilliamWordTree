@@ -8,7 +8,14 @@ $('#phoneIcon').mouseleave(function(){
         height: "0vh",
     });
 
-   
+$('#menuIcon').click(function(){
+    $('#navBarSectionLinks').height("5vh");
+    $('#navBarSectionLinks').width("100vw");
+});
+$('body').hover(function(){
+    $('#navBarSectionLinks').height("0vh");
+    $('#navBarSectionLinks').width("0vw");
+})
 
 })
 });

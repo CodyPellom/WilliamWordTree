@@ -52,7 +52,11 @@ head {
     margin-right: 2vw;
     margin-left: 2vw;
 }
+#menuIcon {
+    width: 4vh;
+    height: 4vh;
 
+}
 #navBarSectionLinks {
     display: flex;
     flex-direction: row;
@@ -60,8 +64,12 @@ head {
     justify-content: center;
     align-items: center;
     align-content: center;
-    width: 100vw;
-    height: 5vh;
+    width: 0;
+    height: 0;
+    /* width: 100vw;
+    height: 5vh; */
+    overflow: hidden;
+    transition: height 0.5s;
     background-color: green;
 
 }
