@@ -43,7 +43,7 @@ head {
     font-family: 'Aleo';
     font-size: 3.15vh;
     text-align: center;
-  
+
 }
 
 #navLogo {
@@ -52,11 +52,13 @@ head {
     margin-right: 2vw;
     margin-left: 2vw;
 }
+
 #menuIcon {
     width: 4vh;
     height: 4vh;
 
 }
+
 #navBarSectionLinks {
     display: flex;
     flex-direction: row;
@@ -110,35 +112,45 @@ head {
 }
 
 #photoSlider {
-    
-        display: flex;
-        flex-direction: row;
-        flex-wrap: nowrap;
-        justify-content: center;
-        align-items: stretch;
-        align-content: stretch;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: stretch;
+    align-content: stretch;
 }
+
 .slideshow {
     width: 100%;
     height: 80%;
 }
+
 .photoSliderPhoto {
-    width:  100%;
+    width: 100%;
     height: 80%;
 }
+
 .flexColumnContainer {
     display: flex;
-	flex-direction: row;
-	flex-wrap: wrap;
-	justify-content: center;
-	align-items: baseline;
-	align-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: baseline;
+    align-content: center;
 }
+
+.indexHistorySection {
+    width: 100%;
+    height: 50vh;
+    background-color: rgba(245, 222, 179, 0.582);
+}
+
 .indexDescriptorSection {
-    background-color: whitesmoke;
+    background-color: rgba(245, 222, 179, 0.582);
     margin-top: -10vh;
-    width: 85vw;
-    min-height:75vh;
+    width: 65vw;
+    min-height: 75vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -147,33 +159,77 @@ head {
     border: ridge 1vh whitesmoke;
 
 }
+
 .headers {
     font-family: 'Aleo';
     color: darkgreen;
-    font-size: 5vh;
+    font-size: 3.5vh;
     text-align: center;
-    
+
 }
+
 .descriptors {
     font-family: 'Aleo';
     color: darkgreen;
     font-size: 2.5vh;
     text-align: left;
-    width: 30vw;
+    width: 50vw;
+    height: 50vh;
 
 
 }
+
 .menuSmallPic {
     width: 20vh;
     height: 20vh;
     margin-right: 10vw;
 }
+
+.columnFlexer {
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
 .rowFlexer {
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-content: center;
 }
+
+#footer {
+    background-color: rgba(245, 222, 179, 0.582);
+    width: 100%;
+    height: 35vh;
+    bottom: 0;
+    margin-top: 20vh;
+}
+
+.footerDescriptor {
+    font-family: 'Aleo';
+    color: darkgreen;
+    font-size: 2.5vh;
+    text-align: center;
+    width: 100vw;
+
+}
+
+#creditCards {
+    width: 100%;
+    height: 100%;
+}
+
+#Lrg-Logo {
+    width: 30vh;
+    height: 30vh;
+    margin-right: 5vw;
+}
+
 #dude {
     width: 30vh;
     height: 30vh;

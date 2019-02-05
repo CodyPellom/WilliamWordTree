@@ -6,7 +6,7 @@ $(document).ready(function () {
 
 
     $('#phoneIcon').mouseenter(function () {
-        $('#popUpImg').height('15vh');
+        $('#popUpImg').height('20vh');
         $('#popUpImg').width('30vh');
     });
 
