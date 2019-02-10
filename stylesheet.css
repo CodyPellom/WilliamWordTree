@@ -1,7 +1,9 @@
 html,
 body,
 head {
-    background-color: rgb(96, 179, 71);
+    background-color: transparent;
+    overflow-x: hidden;
+   
 }
 
 #workInProgress {
@@ -33,7 +35,7 @@ head {
     justify-content: center;
     align-items: center;
     align-content: center;
-    width: 100%;
+    width: 100vw;
     height: 12vh;
     background-color: green;
     border: solid 1vh darkgreen;
@@ -119,16 +121,18 @@ head {
     justify-content: center;
     align-items: stretch;
     align-content: stretch;
+    margin-bottom: -15vh;
 }
 
 .slideshow {
-    width: 100%;
-    height: 80%;
+    width: 100vw;
+    height: 100%;
 }
 
 .photoSliderPhoto {
     width: 100%;
     height: 80%;
+    margin-bottom: -5vh;
 }
 
 .flexColumnContainer {
@@ -141,9 +145,10 @@ head {
 }
 
 .indexHistorySection {
+    padding-top:10vh;
     width: 100%;
     height: 50vh;
-    background-color: rgba(245, 222, 179, 0.582);
+    background-color: rgb(23, 114, 0);
 }
 
 .indexDescriptorSection {
@@ -162,20 +167,36 @@ head {
 
 .headers {
     font-family: 'Aleo';
-    color: darkgreen;
-    font-size: 3.5vh;
+    color: rgb(255, 255, 255);
+    font-size: 4.5vh;
     text-align: center;
 
 }
 
 .descriptors {
     font-family: 'Aleo';
-    color: darkgreen;
-    font-size: 2.5vh;
-    text-align: left;
+    color: rgb(255, 255, 255);
+    font-size: 2vh;    
     width: 50vw;
     height: 50vh;
+    text-align: left;
 
+}
+
+.aboutDescriptors{
+    font-family: 'Aleo';
+    color: white;
+    font-size: 2.25vh;
+    text-align: center;
+    width: 80%;
+    
+
+}
+.aboutHeaders {
+    font-family: 'Aleo';
+    color: white;
+    font-size: 4.5vh;
+    text-align: center;
 
 }
 
@@ -203,16 +224,16 @@ head {
 }
 
 #footer {
-    background-color: rgba(245, 222, 179, 0.582);
-    width: 100%;
+    background-color: rgb(0, 121, 6);
+    width: 100vw;
     height: 35vh;
     bottom: 0;
-    margin-top: 20vh;
+    
 }
 
 .footerDescriptor {
     font-family: 'Aleo';
-    color: darkgreen;
+    color: rgb(255, 255, 255);
     font-size: 2.5vh;
     text-align: center;
     width: 100vw;
@@ -225,13 +246,42 @@ head {
 }
 
 #Lrg-Logo {
-    width: 30vh;
-    height: 30vh;
+    width: 15vh;
+    height: 15vh;
     margin-right: 5vw;
 }
 
 #dude {
-    width: 30vh;
-    height: 30vh;
+    width: 15vh;
+    height: 15vh;
     margin-right: 3.5vw;
+}
+
+
+#parallaxTopBg {
+    width: 100%;
+    height: 40vh;
+    padding-top: 5vh;
+    background-color: darkgreen;
+}
+
+.aboutSection {
+    height: 40vh;
+    width: 100%;
+}
+
+.parallax-window {
+    height: 400px;
+    background: transparent;
+}
+
+#parallaxBtmBg {
+    width: 100%;
+    height: 40vh;
+    background-color: darkgreen;
+    
+}
+
+#aboutBottomSection {
+    padding-top: 5vh;
 }
