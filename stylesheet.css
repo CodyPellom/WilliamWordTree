@@ -1,9 +1,14 @@
 html,
 body,
-head {
+header {
     background-color: transparent;
     overflow-x: hidden;
+
    
+}
+
+body {
+    overflow: hidden;
 }
 
 #workInProgress {
@@ -113,6 +118,15 @@ head {
     height: 0;
 }
 
+.carousel-item {
+    height: 100vh;
+    min-height: 350px;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
 #photoSlider {
 
     display: flex;
