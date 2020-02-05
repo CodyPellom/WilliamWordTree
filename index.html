@@ -8,48 +8,37 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css">
-  <link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Libre+Baskerville" rel="stylesheet">
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
-    crossorigin="anonymous">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <link rel="stylesheet" href="./global.css">
   <link rel="stylesheet" href="./stylesheet.css">
-
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.2.0/anime.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/barba.js/1.0.0/barba.min.js"></script>
-  <script src="./main.js"></script>
   <title>William Word Tree Services</title>
 
 
 </head>
 <header>
-  <nav class="navbar navbar-expand-lg navbar-light bg-light fixed">
-    <a class="navbar-brand" href="./index.html">
-      <img src="https://lh3.googleusercontent.com/jJVf4xd7zPPjNd3tERMER7CdayyPjIPA2R_QurheYBbwsXkNPlu1CPsZCmvRayfGjYxajwUNBmmXFnEQm7pDgORsMntUyUvhz22ONQTP_XxOf-Sq6B2kCohAAj6QA8g6BV7O84ZsOvLrQRpZITSydLCDBAbPlsmqX-R9nlDY9WLhptAQnw7jMUQnwgIpq3w_nhtNZAbhZOPU9Mf3c5xZB_2v3vqwq6I5MQPNszsoMd4TvmgO6MRLp6vW0itgvfXo-TZ_RcYe6_NSstcFs0ANWG7TDOfPMLtcI7acWfzFqsA7Ts1AGufNVAEgzDT3IqmuXR6-sLRiDV3M_tqt4J0sdSkIwOdZT4hkeGiDIc75CYBJ5owKre6gCZsLTgYlXQA1z6kM86-HPNB4PSp7YirXrX5onQChe2ndbG-T0QdFuxFLfK_QveKzlNySOVxyGJJe_eJht2-iRhnqCB0iagwKmOuBVF8Q-u5ikOpUfOmvB9lIUBPumRyUvK5ksM-OwuklgRV46nFWFwyuTNxeBuE_EmbD9WoebYHd4a5Y3_978R9K5DAwaoQI0Tp3u7juqlKKQQB_xS8YZyhnap3yTdEEXtQ-00BJALyOLH5aXCmDVoNIUfBxf_jiJD_tWrU-xtLvNKiJlermYVFd-Z9UznW9_oFRA_s52EQ=s250-no"
-        width="50" height="50" alt="">
-    </a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav"
-      aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNav">
-      <ul class="navbar-nav">
-        <li class="nav-item active">
-          <a class="nav-link" href="./about.html">About <span class="sr-only">(current)</span></a>
-        </li>
-        <li class="nav-item active">
-          <a class="nav-link" href="./testimonials.html">Testimonials</a>
-        </li>
-        <li class="nav-item active">
-          <a class="nav-link" href="./services.html">Services</a>
-        </li>
-        <li class="nav-item active">
-          <a class="nav-link" href="tel:+16789138733">Call Us</a>
-        </li>
+    <div id="announcement-bar">
+      <img id="circle-logo" src="https://lh3.googleusercontent.com/oZG4ubPN9VxLxhNWcdAs_q2fteq0IO41zJIGRSN9sZmN5y4odlUCUkTQsLY-K3Sn95SczQaf5gzuEMXcrfVXqX11NNZ8-Iknj1Cjf5w9ulhQjRtvzqpB0CpEwOj1CVS30I03IZwMZpU0pku-Mx4zTED7yRXw57TnKE1J1-48-42hKbbEJGJjwqpEihRQAS_up4-rBXLlcdLkSHIahSB1bt0Ee46fgj9c8_xYpuPypCyF6880N9VAwGR3I7SEeail8on64JiBfyyMbKd0VbFzBbJxfIvaLlyGLG20Lu-YYRCQrLAVzLdUo1wp28MeGJ3lUh2glU6_OJWZu-lRcOIBF6-j-e27yXTr7dd_O1ls8b2Tw5yAUV1nl184mqSmMPX8Su1pgUWrxJrZqVUIYFtnhi1URS0jji-jTL2CEZlzogiOeiQf3R0EJejMqANN3q6jbgRa6Frd_JZoNo5WwWmKUnHZPUnlqMNU0LHqMlxs5JrX-ipJWGfo_w-eSTU-DffNrhfbFO5p_zBS6aAv0GJzhhj1gfL-H8PHQLCmo-wbH6sZ1MtMtXKx-7a6eGk8RBlprNzXZmCJph9qqu5icbNflU_G_Am5443Bakt1HRrFCn1fggn2t6S1LEMRVLTuUNhLOFhJIUtp6ICK-gdXXnJyLQRV=s250-no" alt="">
+      <h1 id="announcement-bar-text-logo">William Word Tree Services</h1>
+      <div class="announcement-bar-text">
+<h4>Call us today!</h4>
+<h5>We service all of Atlanta</h5>
+<h6>E: hello@williamwordtree.com</h6>
 
-      </ul>
+    </div>
+  </div>
+
+  <nav id="navbar">
+    <div class="row">
+      <a href="./about.html" class="link-navbar">About</a>
+      <a href="./services.html" class="link-navbar">Services</a>
+      <a href="./testimonials.html" class="link-navbar">Testimonials</a>
     </div>
   </nav>
-
 </header>
 
 <body>
@@ -64,7 +53,8 @@
         </ol>
         <div class="carousel-inner" role="listbox">
           <!-- Slide One - Set the background image for this slide in the line below -->
-          <div class="carousel-item active" style="background-image: url('https://lh3.googleusercontent.com/twYfEJN72zel0AwyOOaltOcEdLJ2LNF-wcxcLi-6CBNcUMc5WLIzSDqHxTxsyIvZYpzDcW-xf_K6k5SCb3MxQ2XT4vLJT113TBPuH2-Q6SyctA1WN0NLCMC-Hr3_uOjbIyyDeUZ_8eLy2CjMfIGaOXRZRtYQYN9d6aSp7ljF1KMgEvyKeaBuONVxhAQ5wo9CnquLmybEJL1DzYTA8ACFJdPngr587GGFMDGSxWY7z7Vvc9E0cFbEDyjea0YbiYjvGhlZaoE7LHlZIkqSMZDth_ZDe9oNekIoZ7D1d4QLVY2eazGtHWkFMCu3e9ATNf0ezABX6nMwr1uxuRiUW3lZY9rp7-3eLLKaOeTDSkcQ3dB3_SI2AsvDRt-DGYk6K-gYjbV_iOInStHobG4GoNmh_F8xfHyjRZLlBb_17c6UYIXdTF_HqVlnBUcpaU5qcPMDgmjh9seJH3V559w-nAd1SgMGkkIxJ4mU6L8iXIy1JxqdSRwJ8Xcc0wYstHcstq4eUDkvGuoFBCjH6Am_qU0aGjlGKogxfxSAqGT63LJ9QMoDmninoYWclG9qu9MwJKoy_pgrluJBHMjcawImW7c4a5sASBeOGm_kBmSKeVOj5i-LSNusFosioAt2pW6oF-FzL-tCMmxvq9oCvVOyoL5PgckTQoFYWOM=w941-h588-no')">
+          <div class="carousel-item active"
+            style="background-image: url('https://lh3.googleusercontent.com/twYfEJN72zel0AwyOOaltOcEdLJ2LNF-wcxcLi-6CBNcUMc5WLIzSDqHxTxsyIvZYpzDcW-xf_K6k5SCb3MxQ2XT4vLJT113TBPuH2-Q6SyctA1WN0NLCMC-Hr3_uOjbIyyDeUZ_8eLy2CjMfIGaOXRZRtYQYN9d6aSp7ljF1KMgEvyKeaBuONVxhAQ5wo9CnquLmybEJL1DzYTA8ACFJdPngr587GGFMDGSxWY7z7Vvc9E0cFbEDyjea0YbiYjvGhlZaoE7LHlZIkqSMZDth_ZDe9oNekIoZ7D1d4QLVY2eazGtHWkFMCu3e9ATNf0ezABX6nMwr1uxuRiUW3lZY9rp7-3eLLKaOeTDSkcQ3dB3_SI2AsvDRt-DGYk6K-gYjbV_iOInStHobG4GoNmh_F8xfHyjRZLlBb_17c6UYIXdTF_HqVlnBUcpaU5qcPMDgmjh9seJH3V559w-nAd1SgMGkkIxJ4mU6L8iXIy1JxqdSRwJ8Xcc0wYstHcstq4eUDkvGuoFBCjH6Am_qU0aGjlGKogxfxSAqGT63LJ9QMoDmninoYWclG9qu9MwJKoy_pgrluJBHMjcawImW7c4a5sASBeOGm_kBmSKeVOj5i-LSNusFosioAt2pW6oF-FzL-tCMmxvq9oCvVOyoL5PgckTQoFYWOM=w941-h588-no')">
             <div class="carousel-caption d-none d-md-block">
               <div class="opacity">
                 <h2 class="display-4" style="color:rgb(69, 209, 69);">Professional Services</h2>
@@ -73,7 +63,8 @@
             </div>
           </div>
           <!-- Slide Two - Set the background image for this slide in the line below -->
-          <div class="carousel-item" style="background-image: url('https://lh3.googleusercontent.com/9MeETW5uhcs4YSdk3azgzxpNaps-Gx-hGcrWpuv2h3Y0hiJEvug9gki8t-KNoKZaCw0R8iz1uw4FlGPh2E-tRPl1FyHJ9Tzu9CXOxeE-eLviakWjhDHsZhW5CKED16lLEtse8m-oUGG11JsG-26rnSmNH8zPPtwSdNHhldPldZfAr-8s_H5P6sbHt-z-UVR8jo5SxRBbIDwOK4s7WpSbxhe8owPNSgGqGuYdhsPOszM8dPGS92fKTo8To4KHAdNZq6a0OWN1EkwCmid2nsTl4WFoFOMYY_NPQZyGKwH_jIzlGQL64U-fsFrKoYjWSgX1xIV6HHfswDyS1BkPF1jl8i5QwwtHm_7BIBKm-93_6TSXRNMa1CDRoX2P_2iQJ3zjs1PS76_iNxxzzLGc14p1uw8AyXrcifhJUuJg0g3-93k6eEB25xFRzDoCYOaeh8PMVqWqCwptxQ0UiPujecd9mLLGbvsNEvc30tmt9947n4P2mHX5g9PZTsfm9seKDMu-UdaWvlyihZBLOVgU8aHpp0AtUugjsxqLznpxzAoG9Aeo3vncBUsO_HKpzq63QKq5s4e98Z2LJQ6t9VzEM_mpFGktAlXFylvFpYffjn_gtaxIHjLVLvMQyvltMHBd2gD1cHV0EIbob3cAu9xAK89yW21L4WiLf4g=w995-h560-no')">
+          <div class="carousel-item"
+            style="background-image: url('https://lh3.googleusercontent.com/9MeETW5uhcs4YSdk3azgzxpNaps-Gx-hGcrWpuv2h3Y0hiJEvug9gki8t-KNoKZaCw0R8iz1uw4FlGPh2E-tRPl1FyHJ9Tzu9CXOxeE-eLviakWjhDHsZhW5CKED16lLEtse8m-oUGG11JsG-26rnSmNH8zPPtwSdNHhldPldZfAr-8s_H5P6sbHt-z-UVR8jo5SxRBbIDwOK4s7WpSbxhe8owPNSgGqGuYdhsPOszM8dPGS92fKTo8To4KHAdNZq6a0OWN1EkwCmid2nsTl4WFoFOMYY_NPQZyGKwH_jIzlGQL64U-fsFrKoYjWSgX1xIV6HHfswDyS1BkPF1jl8i5QwwtHm_7BIBKm-93_6TSXRNMa1CDRoX2P_2iQJ3zjs1PS76_iNxxzzLGc14p1uw8AyXrcifhJUuJg0g3-93k6eEB25xFRzDoCYOaeh8PMVqWqCwptxQ0UiPujecd9mLLGbvsNEvc30tmt9947n4P2mHX5g9PZTsfm9seKDMu-UdaWvlyihZBLOVgU8aHpp0AtUugjsxqLznpxzAoG9Aeo3vncBUsO_HKpzq63QKq5s4e98Z2LJQ6t9VzEM_mpFGktAlXFylvFpYffjn_gtaxIHjLVLvMQyvltMHBd2gD1cHV0EIbob3cAu9xAK89yW21L4WiLf4g=w995-h560-no')">
             <div class="carousel-caption d-none d-md-block">
               <div class="opacity">
                 <h2 class="display-4" style="color:rgb(69, 209, 69);">Family Owned</h2>
@@ -82,7 +73,8 @@
             </div>
           </div>
           <!-- Slide Three - Set the background image for this slide in the line below -->
-          <div class="carousel-item" style="background-image: url('https://lh3.googleusercontent.com/5dckIIQzd-FHdVZeJEmGonVD6T8VjLRZJjikgqR4L26NzsyIrqWmS7ifhbWExuMwGOVevRdGNQREdB7N4CxabJcEmLfa4HmewYuIvWsAwWOxE1JBSAGQ53Ab167FYH7ZU0BcpGpQH67yvJHAIOOlFgOOaAJXp_nhUuSTSdpdfB9FEKhkUoqs-t6l1gj7TVWDoCh3H7AMJMX5HvzHcWKRxIodZEbDeD7nes03thDPi2jAW02XettgBPRIvqnAsTe5ZDc7R6vWlIMjn_JF1Pg2l73xdLwBuReoTbGpytJkbY0bx45MOYa9KePnnpnaSB76DsyqvtGYCixiJUAtMSkpgjIXn6bGFlcgHq-BflT2XlZWV_Zh6bBWgg3geyiSVw70hEgPu5KQRtHnoQgINFySmJqA57e5xcWkPSeg8udj4RmFmBCaMQzJ_P6idjdlQgnQxNOnfetucNxmMDQf92IG2S6kSqsNJZ5p3Dktdhpnb9DCSBuW41GPIJh0JWuz1Ru8Y4idUGjN5zm79kf-zAV58VAxarxzqeMOpLnXWIEDC6S_6Afjpko7R_h3u4SfI0Ibmr4hqeuDNEbn2fEBGDZCizBfU-2Fj63XpRW0HXNkL4ejMxZZW485BEQDEmP7DrUXYk8tBWMQnDYw8r_bk7_wWcy9IpeSZQg=w907-h577-no')">
+          <div class="carousel-item"
+            style="background-image: url('https://lh3.googleusercontent.com/5dckIIQzd-FHdVZeJEmGonVD6T8VjLRZJjikgqR4L26NzsyIrqWmS7ifhbWExuMwGOVevRdGNQREdB7N4CxabJcEmLfa4HmewYuIvWsAwWOxE1JBSAGQ53Ab167FYH7ZU0BcpGpQH67yvJHAIOOlFgOOaAJXp_nhUuSTSdpdfB9FEKhkUoqs-t6l1gj7TVWDoCh3H7AMJMX5HvzHcWKRxIodZEbDeD7nes03thDPi2jAW02XettgBPRIvqnAsTe5ZDc7R6vWlIMjn_JF1Pg2l73xdLwBuReoTbGpytJkbY0bx45MOYa9KePnnpnaSB76DsyqvtGYCixiJUAtMSkpgjIXn6bGFlcgHq-BflT2XlZWV_Zh6bBWgg3geyiSVw70hEgPu5KQRtHnoQgINFySmJqA57e5xcWkPSeg8udj4RmFmBCaMQzJ_P6idjdlQgnQxNOnfetucNxmMDQf92IG2S6kSqsNJZ5p3Dktdhpnb9DCSBuW41GPIJh0JWuz1Ru8Y4idUGjN5zm79kf-zAV58VAxarxzqeMOpLnXWIEDC6S_6Afjpko7R_h3u4SfI0Ibmr4hqeuDNEbn2fEBGDZCizBfU-2Fj63XpRW0HXNkL4ejMxZZW485BEQDEmP7DrUXYk8tBWMQnDYw8r_bk7_wWcy9IpeSZQg=w907-h577-no')">
             <div class="carousel-caption d-none d-md-block">
               <div class="opacity">
                 <h2 class="display-4" style="color:rgb(69, 209, 69);">Quality Results</h2>
@@ -91,7 +83,8 @@
             </div>
           </div>
           <!-- Slide Four - Set the background image for this slide in the line below -->
-          <div class="carousel-item" style="background-image: url('https://lh3.googleusercontent.com/cZaohuCbyVfnslN6VxXXOa3XSzt-v1rb1ckdV6DBPx8_fWzvQf8UfX3VDdtCzcq1R9yL1U-lXic-pAos3iez-z2FAKHI0OOW-VwLWhcnHYWu-GtACAuzejiCBBI1R857JHsfHtLFxq8H83-3yY3jaxQqJTs44by3GV0OpLZCW93IWkb0RDzeP2T-snBvMA-Qp08pSFeFoeCMiiM70trkRTitzLYhhDUEPR-O4Zub6rwnD1HLED3_TNK_CPo7OA-h65gKQBDp04Gz255JFgOdUkAVJwLrp6OStngStVXNPoMTsqNlEuqZtxBafj5P9ksRbhxAd8CZMEgnpDXeZGPhjjj9FKaj1ikcqzQx6uQRtpp20bu8OvF6xb64TZWvkHkdTJAPzqYkF4H5W5QWwBhQYevTvg_-92AiAuhApkm6OsyQoKBym177_AxFPSzapfPYhhcAyT6G67vyJ31skWUIMfKwfu_bb0osc3jjue8uxNZd-6sdZHWaBM0D6L4ya3k_K5lqKBhxObwjxLvwmkIdlCsuJ8Te6kVJvMbW4y1DnUZRm_qCnt_UQipMp0dRhytOFDRPdq2ughG4i7rb56O9_l3TYSCDczwyY3l-s6Qd5C3axVI33Ora7bxCF6RAd5N3TBJ76LWh9jYrXcRXaZbNZ9hpSssuTVY=w717-h526-no')">
+          <div class="carousel-item"
+            style="background-image: url('https://lh3.googleusercontent.com/cZaohuCbyVfnslN6VxXXOa3XSzt-v1rb1ckdV6DBPx8_fWzvQf8UfX3VDdtCzcq1R9yL1U-lXic-pAos3iez-z2FAKHI0OOW-VwLWhcnHYWu-GtACAuzejiCBBI1R857JHsfHtLFxq8H83-3yY3jaxQqJTs44by3GV0OpLZCW93IWkb0RDzeP2T-snBvMA-Qp08pSFeFoeCMiiM70trkRTitzLYhhDUEPR-O4Zub6rwnD1HLED3_TNK_CPo7OA-h65gKQBDp04Gz255JFgOdUkAVJwLrp6OStngStVXNPoMTsqNlEuqZtxBafj5P9ksRbhxAd8CZMEgnpDXeZGPhjjj9FKaj1ikcqzQx6uQRtpp20bu8OvF6xb64TZWvkHkdTJAPzqYkF4H5W5QWwBhQYevTvg_-92AiAuhApkm6OsyQoKBym177_AxFPSzapfPYhhcAyT6G67vyJ31skWUIMfKwfu_bb0osc3jjue8uxNZd-6sdZHWaBM0D6L4ya3k_K5lqKBhxObwjxLvwmkIdlCsuJ8Te6kVJvMbW4y1DnUZRm_qCnt_UQipMp0dRhytOFDRPdq2ughG4i7rb56O9_l3TYSCDczwyY3l-s6Qd5C3axVI33Ora7bxCF6RAd5N3TBJ76LWh9jYrXcRXaZbNZ9hpSssuTVY=w717-h526-no')">
             <div class="carousel-caption d-none d-md-block">
               <div class="opacity">
                 <h2 class="display-4" style="color:rgb(69, 209, 69);">Reliable and Fast</h2>
@@ -123,25 +116,23 @@
     </div>
   </div>
 
-
-      <div id="footer">
-        <div class="columnFlexer">
-          <p class="footerDescriptor">William Word Tree Services is a licensed and insured company.</p>
-          <img id="creditCards" src="https://lh3.googleusercontent.com/TCyPl8sY3ZZEZ6qAhc5GPADn-CVs7Y_1cvPAB0Y17wTT3twN_SbhorCjBWw2Y3dT-ZtUCmjtsjv2mRDGkD-_JQpforwHpyPyRbCmWLKOA4pO990W6rLqTBjN24dNFv5x6PPixOIhyRPHp6ZR3jj_7sO8p8NyqglR7P0S3PiICl6nxUJB4E7nl1JFlq8ElJyvp8-rSNiKk9TSsXBgNy31o2-hl0Q9GySiGNwSh-oMoRY4GvmCsd1JbHuTWiBZINAbySU0JaFNcEsYZnaXhSAbzA-8HDtsvfdMLEO7WOfJuArfcGp8JYm6gL3ZQVY5fdtuL8xSgYl_V1pVvz8oqo8jJvR3Iu__nfwNV2kkJUzFP0Ide8KzObzexTIBgSmWSxwd89T1byjQt1TjDJyen5PmV1n6481Sgkd85n2IsGutZCfdne4_HqN8HsZnOHv0YsyKQkme6SB6d-A-g8QYsFOH6LXvDAyiGBQOA3F3llASjr-D36z6uVJ71WWUk2rRcYxsRpyVnAedHnwia-cVStkuWgow_pnt37j4t-KgskvkihcDlcekX92eLNNcfcVtr4Zfp8z5fRRYmw8MRLK8q5G5c7Clr6IX1w-eApY34DhB4aN5G8EaKg3H7Q8wCmusfuBaMqYQ2SoL7DFQB1A_da6qIDvWHpCmQb4=w797-h130-no"
-            alt="">
-          <p class="footerDescriptor">WWTS 2019</p>
-        </div>
-      </div>
+  <div class="callbox">
+    <p>Call Us Now!</p>
+  </div>
 
 
- 
-
-
-
-
-
-
-
+  <!--
+  <div id="footer">
+    <div class="columnFlexer">
+      <p class="footerDescriptor">William Word Tree Services is a licensed and insured company.</p>
+      <img id="creditCards"
+        src="https://lh3.googleusercontent.com/TCyPl8sY3ZZEZ6qAhc5GPADn-CVs7Y_1cvPAB0Y17wTT3twN_SbhorCjBWw2Y3dT-ZtUCmjtsjv2mRDGkD-_JQpforwHpyPyRbCmWLKOA4pO990W6rLqTBjN24dNFv5x6PPixOIhyRPHp6ZR3jj_7sO8p8NyqglR7P0S3PiICl6nxUJB4E7nl1JFlq8ElJyvp8-rSNiKk9TSsXBgNy31o2-hl0Q9GySiGNwSh-oMoRY4GvmCsd1JbHuTWiBZINAbySU0JaFNcEsYZnaXhSAbzA-8HDtsvfdMLEO7WOfJuArfcGp8JYm6gL3ZQVY5fdtuL8xSgYl_V1pVvz8oqo8jJvR3Iu__nfwNV2kkJUzFP0Ide8KzObzexTIBgSmWSxwd89T1byjQt1TjDJyen5PmV1n6481Sgkd85n2IsGutZCfdne4_HqN8HsZnOHv0YsyKQkme6SB6d-A-g8QYsFOH6LXvDAyiGBQOA3F3llASjr-D36z6uVJ71WWUk2rRcYxsRpyVnAedHnwia-cVStkuWgow_pnt37j4t-KgskvkihcDlcekX92eLNNcfcVtr4Zfp8z5fRRYmw8MRLK8q5G5c7Clr6IX1w-eApY34DhB4aN5G8EaKg3H7Q8wCmusfuBaMqYQ2SoL7DFQB1A_da6qIDvWHpCmQb4=w797-h130-no"
+        alt="">
+      <p class="footerDescriptor">WWTS 2019</p>
+    </div>
+  </div>
+  -->
 </body>
+<script src="./main.js"></script>
 
 </html>

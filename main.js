@@ -1,3 +1,4 @@
+/*Barba Starts*/
 $(document).ready(function () {
 
     var transEffect = Barba.BaseTransition.extend({
@@ -18,9 +19,7 @@ $(document).ready(function () {
     Barba.Pjax.getTransition = function () {
         return transEffect;
     }
-    Barba.Pjax.start()
+    Barba.Pjax.start();
+    /*Barba Ends*/
 
-
-
-
-});
+        
