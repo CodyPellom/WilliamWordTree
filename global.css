@@ -21,18 +21,28 @@ h1, h2, h3, h4, h5, h6 {
     font-family: 'Aleo';
 }
 .callbox {
-    position: absolute;
+    position: fixed;
     width: 100px;
     height: 100px;
-    border-radius: 50%;
-    background-color: black;
+    right: 0;
+    bottom: 0;
+    background-color: green;
 }
-
+#hero-text {
+    color: #f1f1f1;
+    width: 100%;
+    padding: 20px;
+    position: relative;
+    z-index: 100;
+}
+#hero-text h1 {
+color: white;
+}
 /*Globals Ends*/
 /*Navbar starts*/
 #announcement-bar {
     width: 100%;
-    height: 100px;
+    height: 75px;
     background-color: rgb(8, 105, 8);
 }
 #announcement-bar-text-logo {
@@ -74,8 +84,6 @@ height: 105px;
 width: 100%;
 height: 75px;
 z-index: 100;
-border-bottom: black solid 1px;
-box-shadow: 10px 10px 8px 10px #bbbbbb;
 }
 .link-navbar {
     text-decoration: none;
